@@ -50,3 +50,11 @@ print(upated_num)
 
 updated_list = call_by_ref(b)
 print(updated_list)
+
+s1= 'GeeksS'
+s2 = lambda func: func.upper()
+print(s2(s1))
+
+a=[2,3,4,5]
+res = [val ** 2 for val in a]
+print(res)
