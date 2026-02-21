@@ -11,3 +11,6 @@ for i in num:
     if i % 2 == 0:
         total = total + i
 print(total)
+
+import logging
+logging.basicConfig(level=logging.DEBUG)
