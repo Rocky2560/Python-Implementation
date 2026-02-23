@@ -14,3 +14,7 @@ print(total)
 
 import logging
 logging.basicConfig(level=logging.DEBUG)
+
+import time
+currentTime = time.localtime(time.time());
+print("curent Time is ",currentTime)
