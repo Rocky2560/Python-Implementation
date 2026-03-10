@@ -35,3 +35,27 @@ li = a.split(' ')
 print(li)
 jo = ' '.join(li)
 print(jo)
+from math import sqrt;
+def prime(x):
+    for i in range(2, int(sqrt(x))+1):
+        if (x%i==0):
+            return False
+    return True
+print(prime(5))
+
+a=5
+b=10
+temp =a
+a=b
+b=temp
+a,b = b,a
+print(a)
+print(b)
+from math import factorial
+def factorials(n):
+    if (n == 0 or n == 1):
+        return 1
+    else:
+        return n * factorial(n-1)
+print(factorials(5))
+print(factorial(5))
