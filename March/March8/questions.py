@@ -59,3 +59,15 @@ def factorials(n):
         return n * factorial(n-1)
 print(factorials(5))
 print(factorial(5))
+
+from functools import reduce
+x=[1,2,5,3]
+y=[1,2,5,3]
+ch = ['a','b','c','d']
+print(','.join(ch))
+# reduce(lambda x,y: x if x<y else y,b)
+
+print([i for i in range(1,10) if i%2 != 0])
+
+c = np.concatenate((arr,arr2,arr3), axis=0)
+print(c)
