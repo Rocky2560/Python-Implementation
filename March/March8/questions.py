@@ -71,3 +71,4 @@ print([i for i in range(1,10) if i%2 != 0])
 
 c = np.concatenate((arr,arr2,arr3), axis=0)
 print(c)
+
